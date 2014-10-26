@@ -1,8 +1,5 @@
-
-
-
-
 if (Meteor.isClient) {
+
 
 
   var Router = Backbone.Router.extend({
