@@ -19,7 +19,8 @@ if (Meteor.isClient) {
   yms: function() {
     Session.set('currentPage', 'yms');// Your Meal Swipe page
   },
-  fof: function() {
+  fof: function(fof) {
+
   	Session.set('currentPage', 'fof');//404 page
   }
 });
@@ -32,9 +33,13 @@ Template.home.showHome= function(){
 	return Session.get('currentPage') == 'home';
 } // shows home routing
 
-Template.home.showYms= function(){
+Template.yms.showYms= function(){
 	return Session.get('currentPage') == 'yms';
-} // shows home routing
+} // shows yms routing
+
+Template.fof.showfof= function(){
+  return Session.get('currentPage') == 'fof';
+} // shows fof routing
 
 
   Template.hello.greeting = function () {
