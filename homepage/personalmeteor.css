@@ -6,7 +6,7 @@ body{
 	/*background-image: url('http://i.imgur.com/a1WbOdo.jpg');*/
 	
     background-color: #cccccc;
-    
+
 }
 
 
@@ -27,8 +27,10 @@ body{
   }
 
   .jumbotron p {
+
   	margin-left: 200px;
   	margin-right: 100px;
+  	padding-top: 25px;
   	padding-bottom: 25px;
   	padding-left: 50px;
   	/*padding-left :200px;*/
