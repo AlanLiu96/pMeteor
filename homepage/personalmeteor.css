@@ -5,11 +5,30 @@ body{
 	/*background-image: url('forest.jpg');*/
 	/*background-image: url('http://i.imgur.com/a1WbOdo.jpg');*/
 	 font-family: 'Open Sans', sans-serif;
-    background-color: #f8f8f8;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+
+}
+@font-family-base: 'Open Sans', sans-serif;
+@link-color: #2F2F2F;
+
+
+.projects{
+  padding-left: 50px;
+    padding-right:50px;
+    /*background-color: #D9D7D7;*/
+    padding-top: 20px;
+    padding-bottom:50px;
 
 }
 
+.col-md-3{
+  background-color: white;
 
+}
 .container{
 
   vertical-align: right;
@@ -18,6 +37,8 @@ body{
 
 .jumbotron {
     margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: #D9D7D7;
     background-image: url(/img/background.jpg);
     /*background-position: 0% 25%;*/
     vertical-align: center;
